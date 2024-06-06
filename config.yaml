@@ -1,0 +1,19 @@
+#Host: 0.0.0.0:8083
+BotToken: "6672013144:AAFHqcF6NQLB00SQcAetGczIiun7q3maBAg"
+SpreadSheetId: "1ygCySoRRoYbfAGmArbJSApzz6tHUb69LIiOVZNKMMFg"
+TemplateSheetId: 612094522
+CellRange: "A2"
+
+CredentialPath: "credentials.json"
+TokenPath: "token.json"
+
+DelayWhenNoJobInSeconds: 4
+DelayWhenErrorInSeconds: 5
+DelayWhenJobDoneInSeconds: 2
+
+Redis:
+  Host: ['127.0.0.1:6379']
+  DB: 0
+  Password:
+  MaxIdle: 100
+  MaxActive: 500
